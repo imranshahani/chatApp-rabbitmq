@@ -1,0 +1,23 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "send": "nodemon send.js",
+    "consume": "nodemon consumer.js",
+    "receive" : "nodemon Receive.js",
+    "S_task" : "nodemon send_task.js",
+    "C_task" : "nodemon consume_task.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "amqplib": "^0.10.3",
+    "cors": "^2.8.5",
+    "nodemon": "^2.0.21",
+    "socket.io": "^4.6.1"
+  }
+}
